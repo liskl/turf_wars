@@ -1,2 +1,12 @@
-#gamecontianer {}
-.gamelayer{}
+#gamecontianer {
+	width: 640px;
+	height: 480px;
+	background: url(img/splashscrn.png);
+	border: 1px solid black;
+}
+.gamelayer{
+	width: 640px;
+	height: 480px;
+	position: absolute;
+	display: none;
+}
