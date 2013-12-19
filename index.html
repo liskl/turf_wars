@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title>Turf Wars</title>
+	<script src="js/common.js" type="text/javascript" charset="utf=8"></script>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf=8"></script>
+	<script src="js/game.js" type="text/javascript" charset="utf=8"></script>
+	<script src="js/input.js" type="text/javascript" charset="utf=8"></script>
+	<script src="js/sp.js" type="text/javascript" charset="utf=8"></script>
+	<script src="js/maps.js" type="text/javascript" charset="utf=8"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf=8">
+    </head>
+    <body>
+	<div id="gamecontainer">
+	    <div id="gamestartscreen" class="gamelayer">
+		<span id="singleplayer" onclick="singleplayer.start();">Singleplayer</span><br>
+		<span id="multiplayer" onclick="multiplayer.start();">Multiplayer</span><br>
+	    </div>
+	    <div id="loadingscreen" class="gamelayer">
+	        <div id="loadingmessage"></div>
+	    </div>
+       </div>
+    </body>
+</html>
